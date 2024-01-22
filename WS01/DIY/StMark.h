@@ -12,6 +12,7 @@ Name            Date            Reason
 #ifndef SENECA_STMARK_H
 #define SENECA_STMARK_H
 
+#define N_DISTIBUTION 10
 #define MAX_STUDENTS 1024
 namespace seneca {
 

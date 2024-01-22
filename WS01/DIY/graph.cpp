@@ -12,16 +12,20 @@
 namespace seneca {
     // Maximum number of samples in an graph
     const int MAX_NO_OF_SAMPLES = 20;
-    const int GRAPH_WIDTH = 65;
-
+    const int GRAPH_WIDTH = 79;
+    const int MAX_MARK = 100;
     // prints a graph comparing the sample values visually 
     void printGraph(int samples[], int noOfSamples, const char* label) {
         int max = findMax(samples, noOfSamples);
-        labelLine(GRAPH_WIDTH + 10, label);
+        int markLabel = MAX_MARK;
+        int decrement = markLabel / noOfSamples;
+        labelLine(GRAPH_WIDTH + 14, label);
         for (int i = 0; i < noOfSamples; i++) {
+            printInt(markLabel, 4);
+            markLabel -= decrement;
             printBar(samples[i], max);
         }
-        line(GRAPH_WIDTH + 10);
+        line(GRAPH_WIDTH + 14);
     }
 
     // prints a scaled bar relevant to the maximum value in samples array
