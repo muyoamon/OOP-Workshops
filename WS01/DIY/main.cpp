@@ -26,7 +26,7 @@ int main() {
       if ((filename[0] == 'X' || filename[0] == 'x') && filename[1] == 0) {
          done = true;
       }
-      else if (!printReport(filename)) {
+      else if (!seneca::printReport(filename)) {
          cout << "Can not open \"" << filename << "\"!" << endl;
       }
    }

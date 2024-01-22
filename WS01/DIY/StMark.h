@@ -11,6 +11,8 @@ Name            Date            Reason
 ***********************************************************************/
 #ifndef SENECA_STMARK_H
 #define SENECA_STMARK_H
+
+#define MAX_STUDENTS 1024
 namespace seneca {
 
    /// <summary>
@@ -21,6 +23,33 @@ namespace seneca {
       char surname[31];
       int mark;
    };
+
+
+   /// <summary>
+   /// Tries to open the students' mark data file. 
+   /// If successful it will print a report based on the 
+   /// date in the file.
+   /// </summary>
+   /// <param name="filename">, holds the data file name</param>
+   /// <returns>True if the date files is opened succesfully, 
+   /// otherwise returns false</returns>
+   bool printReport(const char* filename);
+
+   /// <summary>
+   /// Print students' mark array
+   /// </summary>
+   /// <param name="arr">, array of students' mark</param>
+   /// <param name="size">, size of the array</param>
+   /// <returns>Number of line printed</returns>
+   int printStMarks(const StMark* arr, const int size);
+
+   /// <summary>
+   /// Sort students' mark array sorted by mark
+   /// </summary>
+   /// <param name="arr">, array of students' mark</param>
+   /// <param name="size">, size of the array</param>
+   /// <returns>None</returns>
+   void sortStMarks(StMark* arr, const int size);
 
 }
 #endif // !SENECA_STMARK_H
