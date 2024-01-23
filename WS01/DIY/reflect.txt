@@ -1,0 +1,25 @@
+//Name:     Thanatorn Wongthanaporn
+//Email:    twongthanaporn@myseneca.ca
+//ID:       161197223
+//Date:     22/1/2023
+
+//I have done all the coding by myself and only copied the code that my professor 
+// provided to complete my workshops and assignments.
+
+  In this workshops, I learned about namespace, modular design as well as 
+new library iostream, which truly serve as a great introduction to 
+object-oriented programming. The use of namespace is what I find very
+beneficial because you can have 2 variable of the same name as long as they
+are not in the same namespace. Although, I cannot truly understand the practical usage yet I believe it is going to be impactful in the future. 
+Modular design is already taught in IPC144. I mention it here because the
+introduction of namespace which is very helpful. iostream library introduce
+new method to input-output. Instead of throwing varaible as a argument of
+a function like printf in C, we use >> and << operator instead. I believe
+this is what we need to wrap our head on to be able to understand OOP 
+mindset. 
+  In this workshop, I find DIY part difficult because of no guidance
+and restriction. In IPC144, almost every workshops have certain 
+restriction to we you can and what you cannot. In this workshop, however,
+there are no restriction, leaving implementation to students. There are
+many variety of possible solutions and the hardest part of all is to decide
+which one to implement.
