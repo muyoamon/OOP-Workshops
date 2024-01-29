@@ -1,0 +1,14 @@
+// Name: Thanatorn Wongthanaporn
+// email: twongthanaporn@myseneca.ca
+// id: 161197223
+// Date: 24/1/2024
+//
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+
+In this workshop I learn about dynamic memory allocation. I find that 
+dynamic memory allocation is quite useful when you want an array that is
+initialize at runtime and not compile time. Although, I still get a bit 
+confuse when dynamic sizing string because sometimes I think that instead
+of string, I should declare a pointer to string instead. Thus, making me
+a bit confuse in this workshop but everything else is just fine.
