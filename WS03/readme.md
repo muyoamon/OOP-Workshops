@@ -1,5 +1,6 @@
 # Workshop #3: Member Functions and Privacy
 * Version 1.0
+* [Version 1.1](#v11) (Added spec for car() query function in Customer that is used in main.cpp)
 
 In this workshop, you will complete your work using member functions and privacy.
 
@@ -216,6 +217,15 @@ After the customer information is printed, the Car will be displayed.
 	Service Name:     Engine oil change
 	Service Cost:                 50.00
   ```
+
+#### V1.1
+```C++
+const Car& car()const;
+```
+This function returns the car object pointed to by m_car pointer by dereferencing it.
+There is no need to validate the pointer prior to dereferencing. It can be assumed to be valid.
+
+
 ## The Tester Program
 
 [main.cpp](./lab/main.cpp)
