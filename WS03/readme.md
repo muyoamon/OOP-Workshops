@@ -182,7 +182,7 @@ This query method checks if the object is in a safe empty state. A customer is c
 ```C++
 void setEmpty();
 ```
-This method sets the customer to a safe empty state by setting the pointer to null and the id to 0.
+This method sets the customer to a safe empty state by setting the pointers to null and the id to 0.
 
 ```C++
 void deallocateMemory();
