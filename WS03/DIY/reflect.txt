@@ -1,0 +1,21 @@
+// Name: Thanatorn Wongthanaporn
+// email: twongthanaporn@myseneca.ca
+// id: 161197223
+// Date: 6/2/2024
+//
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+
+in this workshops, I learn about class and encapsulation. I find that class is quite handy
+because we can have a method that modify class member variables without passing it through
+the parameters. Class can also hide private member variables and also function which can make
+program more secure and it is a good design to expose a part of logic only when needed to.
+
+In this workshops, I find that it is easier compare to the last workshops. However, I have
+a hard time formatting the output. I still feel like the printf formatting is easier
+compare to C++ std::cout but I believe that std::cout is more versatile compared to printf.
+
+Also, in the Icecream class I try using static member variable instead of dynamic array.
+I believe that using dynamic array will use less memory however I do not want to deal without
+memory leaks.
+
