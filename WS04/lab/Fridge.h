@@ -13,6 +13,13 @@
 //
 /////////////////////////////////////////////////////////////////
 ***********************************************************************/
+// Name: Thanatorn Wongthanaporn
+// email: twongthanaporn@myseneca.ca
+// id: 161197223
+// Date: 1/1/2024
+//
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
 #define _CRT_SECURE_NO_WARNINGS
 #ifndef SENECA_FRIDGE_H
 #define SENECA_FRIDGE_H
@@ -20,20 +27,36 @@
 #include <cstring>
 #include <iostream>
 
-namespace seneca{
+namespace seneca {
 
-   const int NAME_LEN = 20;
+const int NAME_LEN = 20;
+const int FRIDGE_CAP = 3;
+class Food {
+  char m_name[NAME_LEN]{};
+  int m_weight{};
 
-   class Food {
-      char m_name[NAME_LEN]{};
-      int m_weight{};
-   public:
-      const char* name()const;
-      int weight()const;
-      Food();
-      Food(const char* nm, int wei);
-   };
+public:
+  const char *name() const;
+  int weight() const;
+  Food();
+  Food(const char *nm, int wei);
+};
+class Fridge {
+  Food m_foods[FRIDGE_CAP];
+  int m_numFoods;
+  char *m_model;
 
-}
+public:
+  Fridge();
+  Fridge(Food farr[], int nf, const char* mod="Ice Age");
+  ~Fridge();
+  bool addFood(const Food& f);
+  void changeModel(const char* m);
+  bool fullFridge() const;
+  bool findFood(const char* f) const;
+  std::ostream& display(std::ostream& os = std::cout) const;
+};
+
+} // namespace seneca
 
 #endif
