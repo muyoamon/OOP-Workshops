@@ -1,0 +1,23 @@
+// Name: Thanatorn Wongthanaporn
+// email: twongthanaporn@myseneca.ca
+// id: 161197223
+// Date: 13/2/2024
+//
+// I have done all the coding by myself and only copied the code
+// that my professor provided to complete my workshops and assignments.
+
+  In this workshops, I learn about Construction, Destruction, Member operator and Helper function. 
+  The constructor is a function that is called when The object is created. 
+It is used to initialize the value of the object. It can be overloaded. 
+  The destructor is a function that is called when object is destroyed/ go out of scope
+used to garbage collect the dynamic memory. It cannot be overloaded.
+  The member operator is a feature of C++ language that allow us to overload the operator
+to be able to use with user-defined object type. In this workshops I overloaded the == operator
+to compare the GuitarStr object.
+  The helper function is a function outside of class definition. It is used when the function is
+loosely relate to functionality of class. For example, comparison. However to have a helper function
+instead of member function, the class require the query function to do its work properly.
+
+  In this workshops, I don't find anything in particular to be difficult However I still aren't able
+to handle dynamic memory properly and didn't set the pointer to be null pointer which I believe the 
+more workshops I do I will be able to rid of this problem.
