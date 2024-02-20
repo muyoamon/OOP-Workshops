@@ -1,0 +1,23 @@
+// Name: Thanatorn Wongthanaporn
+// Email: twongthanaporn@myseneca.ca 
+// id: 161197223
+// Date: 20/2/2024
+
+// I have done all the coding by myself and only copied the code that my
+// professor provided to complete my workshops and assignments.
+
+In this workshop, I learned about member operator overload and helper operator.
+I overload member operator to make operating on object simpler compared to using
+function while retaining similarity of operator. For example, in this DIY workshop,
+we use greater than operator (>) to check if Hero's power level is greater than 
+the other's hero object power level.
+
+In this workshop, one thing I had difficulty in particular is dealing with pass-by-reference.
+The reason being in some function I forgot to pass a parameter by reference, and sometimes, it
+create additional object instead of referencing. It is not a hard bug to fix but I had a hard
+time noticing it so it take a lot of time debugging.
+
+Also, this is not something I find difficulty but because I am not careful. when I read the Power.h
+I thought that it has dynamic memory allocation. I only noticed when I finished my first implementation.
+So I need to make some tweaks.
+
