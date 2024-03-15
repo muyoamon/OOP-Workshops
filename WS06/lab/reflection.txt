@@ -1,0 +1,20 @@
+// Name: Thanatorn Wongthanaporn
+// Email: twongthanaporn@myseneca.ca 
+// id: 161197223
+// Date: 8/3/2024
+
+// I have done all the coding by myself and only copied the code that my
+// professor provided to complete my workshops and assignments.
+
+The most recent milestone that I had done is MS1. The thing I primarily learn
+from this workshop and milestone 1 is about iostream and its function.
+  In workshop 6, I learn about fstream and in milestone 1, I learn about iostream
+function, such as, ignore(), peek(), and clear(), all of which is crucial to 
+string input or related problem.
+In this workshop, I didn't find anything difficult in particular. In fact, I think
+this is the one of the easiest in the last 6 workshop.
+In the milestone 1, however, I misunderstood the life time of constant literal.
+I define the function to pass by reference to function but the compiler use type cast
+instead of the overload I provided which took me about 2 hour to debug. So that was 
+one thing I learn that constant literal cannot be pass by reference and needed to pass
+by value instead. I believe this knowledge will prove to be crucial in the future.
