@@ -1,0 +1,25 @@
+// Name: Thanatorn Wongthanaporn
+// Email: twongthanaporn@myseneca.ca 
+// id: 161197223
+// Date: 19/3/2024
+
+// I have done all the coding by myself and only copied the code that my
+// professor provided to complete my workshops and assignments.
+
+In this workshops, I primarily learn about Inheritance.
+When base class get inherit into child class.
+all of member type private, public, protected are retained.
+However, only public and protected can be accessed.
+To access the private member of base class, base class need to 
+offer getter setter method.
+
+Also in this workshops, I find myself more familiar with C++
+inputstream and how istream >> operator works. if my understanding
+is correct, I won't have problem dealing with string input in the 
+future.
+
+The most recent milestone I have done is milestone 2.
+I consider milestone 2 to be the easiest workshops/milestone I 
+ever done since IPC144. I think because the size of milestone is also 
+small. If I remember correctly, there are only 1 class to define and 
+2 function to implement. I think that's why it is so easy.
