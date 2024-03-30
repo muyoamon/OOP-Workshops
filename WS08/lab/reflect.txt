@@ -1,0 +1,30 @@
+/***********************************************************************
+// Workshop # 8, Virtual Functions and Abstract Base Classes
+//
+// File: reflect.txt
+// Version 1.0
+// Date: 26/3/2024
+// Author: Thanatorn Wongthanaporn
+// Description
+// This file contain reflection for the workshop 8
+// -----------------------------------------------------------
+// Name            Date            Reason
+//
+***********************************************************************/
+
+In this workshop, I learnt about abstract classes and virtual function.
+I think this concept is quite easy to understand. function in C++ is
+static and stored in stack similar to variable. If not override the
+function used is same of base class function. However, if declared virtual
+compiler will be able to find the overrided function.
+
+
+The problem I get in this workshop is that sometimes I have
+an error that I don't quite understand how it happened. When I override
+function from pure virtual function, sometimes the compiler cannot find
+the overrided function. However when I compiled it again it works.
+
+The most recent milestone I did is milestone 3. There are not much about it.
+Although, I had a bug that I took 5 hours to debug only to find that the
+problem is not about the input but for some reason I put reset value logic in
+the input process.
