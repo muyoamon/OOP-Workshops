@@ -1,3 +1,10 @@
+// Name: Thanatorn Wongthanaporn
+// Email: twongthanaporn@myseneca.ca 
+// id: 161197223
+// Date: 2/4/2024
+
+// I have done all the coding by myself and only copied the code that my
+// professor provided to complete my workshops and assignments.
 #include "Book.h"
 #include "LibraryItem.h"
 #include <cstring>
@@ -12,6 +19,7 @@ namespace seneca {
     *this = other;
   }
   Book& Book::operator=(Book& other) {
+    delete[] m_author;
     LibraryItem::operator=(other);
     m_author = new char[strlen(other.m_author) + 1];
     strncpy(m_author,other.m_author,strlen(other.m_author) + 1);
