@@ -1,0 +1,25 @@
+/***********************************************************************
+// Workshop # 9
+//
+// File: reflect.txt
+// Version 1.0
+// Date: 4/4/2024
+// Author: Thanatorn Wongthanaporn
+// Description
+// This file contain reflection for the workshop 9
+***********************************************************************/
+
+In this Workshop, I learnt about inheritance and polymorphism. I think
+the content of this workshops is pretty similar to the last workshop
+If I recall correctly, the only difference is we have to write entire 
+library ourself.
+
+The most recent milestone I did is ms3 and ms4. The content of both
+milestone is very similar. The only difference is that ms4 is more
+complex. However I think that ms3 is harder than ms4 because ms4 is
+inherit from ms3. If ms3 is without a problem then ms4 is most likely
+without a problem
+
+The most annoying part of those milestone is formatting output.
+without using iomanip I feel like they are sometimes a hassle. 
+
