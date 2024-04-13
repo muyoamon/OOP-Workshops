@@ -1,0 +1,19 @@
+/***********************************************************************
+// Workshop # 10
+//
+// File: reflect.txt
+// Version 1.0
+// Date: 12/4/2024
+// Author: Thanatorn Wongthanaporn
+// Description
+// This file contain reflection for the workshop 10
+***********************************************************************/
+
+In this Workshop, I learnt about template. Template is like inverse overloading
+it is to have multiple type use the same code. With the use of overloading
+operator, template can make the code very less redundant.
+
+The latest milestone I did is milestone 5. If I recall correctly, there aren't 
+any template in there except for the provided one. What I find the most difficult
+are output formatting and function usage. With 5 milestone I forgot which function
+exist. However, modular code help me find function quickly.
